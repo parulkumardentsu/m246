@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Isobar_Training::gridmanager" title="EXCITING MENU" module="Isobar_Training" sortOrder="10" resource="Isobar_Training::gridmanager"/>
+    	<add id="Isobar_Training::create" title="Grid Manager" module="Isobar_Training" sortOrder="20" parent="Isobar_Training::gridmanager" action="admincustom/grid/index" resource="Thecoachsmb_Grid::create"/>
+    </menu>
+</config>
