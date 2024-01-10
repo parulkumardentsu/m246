@@ -74,3 +74,4 @@ atlassian*
 .DS_Store
 .php-cs-fixer.dist.php
 var/
+/generated
